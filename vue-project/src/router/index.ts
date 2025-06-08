@@ -12,3 +12,4 @@ const routes = [
     component: RsvpList
   }
 ];
+export default router; // ✅ THIS IS IMPORTANT
