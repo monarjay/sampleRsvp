@@ -29,7 +29,7 @@ export default {
   },
   async mounted() {
     //const res = await fetch('http://localhost:3000/api/rsvps'); 
-    const res = await fetch('https://wedding-rsvp-backend-rb19.onrender.com'); 
+    const res = await fetch('https://wedding-rsvp-backend-rb19.onrender.com/api/rsvps'); 
     const data = await res.json();
     this.rsvps = data;
   }
