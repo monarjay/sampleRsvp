@@ -41,7 +41,7 @@ export default {
   methods: {
     async submitRSVP() {
       try {
-        const res = await fetch('https://wedding-rsvp-backend-rb19.onrender.com/api/rsvp', {
+        const res = await fetch('https://wedding-rsvp-backend-rb19.onrender.com/api/rsvps', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify({
