@@ -1,5 +1,5 @@
 import RsvpList from '../views/RsvpList.vue';
-
+import router from './router/index';
 const routes = [
   {
     path: '/',
